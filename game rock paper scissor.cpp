@@ -45,7 +45,7 @@ public:
 
 int main()
 {
-    // srand(static_cast<unsigned int>(time(0)));
+    srand(static_cast<unsigned int>(time(0)));
     cout << "Welcome to Rock-Paper-Scissors!" << endl;
     char play;
     do
